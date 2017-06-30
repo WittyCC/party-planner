@@ -28,7 +28,7 @@ _For all issues and support, please contact Witty Chang at wcc1213@gmail.com_
 
 
 ## Technologies Used
-_Java and Gradle_
+_Java, jUnit and Gradle_
 
 
 ### License
