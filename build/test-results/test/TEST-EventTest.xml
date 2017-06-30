@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EventTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-30T20:25:50" hostname="DESKTOP-BP20GS2" time="0.002">
+<testsuite name="EventTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-30T21:10:39" hostname="DESKTOP-BP20GS2" time="0.002">
   <properties/>
-  <testcase name="newEvent_createNewEvent_true" classname="EventTest" time="0.002"/>
+  <testcase name="newEvent_EventCost_1500" classname="EventTest" time="0.001"/>
+  <testcase name="newEvent_correctlyGetEventName_Birthday" classname="EventTest" time="0.0"/>
+  <testcase name="newEvent_createNewEvent_true" classname="EventTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

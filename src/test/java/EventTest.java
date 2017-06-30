@@ -9,10 +9,17 @@ public class EventTest {
     assertEquals(true, testEvent instanceof Event);
   }
 
-  // @Test
-  // public void getEventName_correctlyGetEventName_Birthday() {
-  //   Event testEvent = new Event("Birthday");
-  //   testEvent.getEventName(eventname);
-  //   assertEquals("Birthday", testEvent.getEventName());
-  // }
+  @Test
+  public void newEvent_correctlyGetEventName_Birthday() {
+    Event testEvent = new Event("Birthday", 5, "cake and ice cream", "soda", "clown show");
+    testEvent.getEventName();
+    assertEquals("Birthday", testEvent.getEventName());
+  }
+
+  @ Test
+  public void newEvent_EventCost_1500() {
+    Event testEvent = new Event("birthday", 10, "Full Meal", "Juices", "None");
+    testEvent.computeCost();
+    assertEquals(1500, testEvent.computeCost());
+  }
 }

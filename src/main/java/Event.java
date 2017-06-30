@@ -4,6 +4,10 @@ class Event {
   private String mPartyfood;
   private String mPartydrinks;
   private String mEntertain;
+  private int mFoodcost;
+  private int mDrinkscost;
+  private int mEntertaincost;
+  private int mEventCost;
 
   public Event(String eventname, int guestcount, String partyfood, String partydrinks, String entertain) {
     mEventname = eventname;
@@ -33,18 +37,32 @@ class Event {
     return mEntertain;
   }
 
-  // public String getEventName(String eventname) {
-  //   mEventname = eventname;
-  //   return mEventname;
-  // }
-  //
-  // public int enterGuestCount(int guestcount) {
-  //   mGuestcount = guestcount;
-  //   return guestcount;
-  // }
-  //
-  // public String selectPartyFood(String partyfood) {
-  //   mPartyfood = partyfood;
-  //   return partyfood;
-  // }
+  public int computeCost() {
+    if (mPartyfood.equals("Appetizers")) {
+      mFoodcost = 50;
+    } else if (mPartyfood.equals("Full Meal")) {
+      mFoodcost = 100;
+    } else if (mPartyfood.equals("Desserts")) {
+      mFoodcost = 75;
+    }
+
+    if (mPartydrinks.equals("Cocktails")) {
+      mDrinkscost = 100;
+    } else if (mPartydrinks.equals("Beers")) {
+      mDrinkscost = 75;
+    } else if (mPartydrinks.equals("Juices")) {
+      mDrinkscost = 50;
+    }
+
+    if (mEntertain.equals("Live Band")) {
+      mEntertaincost = 5000;
+    } else if (mEntertain.equals("DJ")) {
+      mEntertaincost = 2000;
+    } else if (mEntertain.equals("None")) {
+      mEntertaincost = 0;
+    }
+
+    mEventCost = ((mFoodcost + mDrinkscost) * mGuestcount + mEntertaincost);
+    return mEventCost;
+  }
 }
