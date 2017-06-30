@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "party-planner"
 version = '1.0'
-mainClassName = "PartyPlanner"
+mainClassName = "Event"
 
 repositories {
   mavenCentral()
