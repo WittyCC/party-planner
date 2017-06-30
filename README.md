@@ -16,7 +16,7 @@
 ## Specifications
 |Behavior|Input|Output|
 |---|---|---|
-|The user (client) will be prompted to enter the name of the event being planned. The user can then input the number of guests attending, their preferences for party food and drinks, as well as entertainment to be provided. They will then receive confirmation of their event that will enumerate the details according to the user's selections and include the cost for the party planning service|Event: 'Birthday'; Number of Guests: 10; Party Food Selection: 'Full-Meal'; Party Drinks Selection: 'Juices'; Entertainment: 'None'|Thank you for your booking. You are all set for your upcoming event: Birthday; The number of people that are going is: 10; For food, your guests will be served: Full-Meal; For drinks, your guests will be served: Juices; Your guests will be entertained by: None; Your total cost for this event will be: $1500|
+|The user (client) will be prompted to enter the name of the event being planned. The user can then input the number of guests attending, their preferences for party food and drinks, as well as entertainment to be provided. They will then receive confirmation of their event that will enumerate the details according to the user's selections and include the cost for the party planning service|Event: 'Birthday'; Number of Guests: 10; Party Food Selection: 'Full-Meal'; Party Drinks Selection: 'Juices'; Entertainment: 'None'|Thank you for your booking. You are all set for your upcoming event: Birthday; The number of people that are attending is: 10; For food, your guests will be served: Full-Meal; For drinks, your guests will be served: Juices; Your guests will be entertained by: None; Your total cost for this event will be: $1500|
 
 
 ## Known Bugs
